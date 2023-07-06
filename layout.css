@@ -1,0 +1,14 @@
+.intro{
+    font-size:xx-large;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+body {
+    background-image: url("./greybackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
