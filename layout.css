@@ -12,4 +12,128 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.video-container{
+    width:100%;
+    margin:0 auto;
+    padding:20px 0;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.3);
+    height:auto;
+}
+
+.video{
+    width:40%;
+    display:inline-block;
+}
+
+.video div {
+    width:100%;
+    height:0;
+    padding-bottom:56.25%;
+    position:relative;
+    display:inline-block;
+    box-sizing:border-box;
+    
+}
+.video iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+ .video-text{
+     width:50%;
+     margin:0 auto;
+ }
+
+ .pic{
+    width: auto;
+    height: auto;
+    margin-left: 800px;
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .pagination {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pagination li {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.pagination li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.pagination li a.active {
+    background-color: darkblue;
+}
+
+.pagination li a:hover {
+    background-color: darkblue;
+}
+
+
+p{
+    color: white;
+    text-shadow: 0 0 20px cornflowerblue;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: large;
+}
+
+.CornFlowerBlue{
+    color: cornflowerblue;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: large;
+}
+.DarkBlue{
+    color: darkblue;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: large;
+}
+.White{
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: large;
+}
+.Black{
+    color: rgba(0, 0, 0, 0.3);
+    font-family: "Ubuntu Mono", monospace;
+    font-size: large;
 }
