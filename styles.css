@@ -1,0 +1,144 @@
+/* Place your CSS styles in this file */
+
+/* Styles for the different headings in the body */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 0 0 10px cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: normal;
+    font-size: 100px;
+}
+
+h2 {
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0 0 10px cornflowerblue;
+    font-size: 50px;
+    color:white;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: large;
+    text-shadow: 0 0 10px cornflowerblue;
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+    margin: 50px;
+    text-align: center;
+}
+
+/* styling for the about me paragraphs */
+pre {
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Styling for the text above my links */
+p{  
+    font-size: large;
+    text-align: left;
+    text-shadow: 0 0 10px cornflowerblue;
+    color: white;
+    font-family: "Ubuntu Mono", monospace;
+}
+/* stlying for my navigation bar that includes the 3 required link sites */
+nav {
+    background-color:  rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+nav p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar ul li {
+    margin-right: 10px;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+    background-color: darkblue;
+}
+
+/*styling for the body including the webpage background */
+body{
+    background-image: url("./greybackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Styling for the two pictures */
+.photos {
+    display: flex;
+    justify-content: center;
+}
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Styling for the page navigation links at the bottom */
+.pagination {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.pagination li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.pagination li a.active {
+    background-color: darkblue;
+}
+
+.pagination li a:hover {
+    background-color: darkblue;
+}
+
+
