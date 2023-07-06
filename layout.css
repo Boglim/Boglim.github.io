@@ -1,5 +1,5 @@
 .intro{
-    font-size:xx-large;
+    font-size:3vw;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
@@ -23,7 +23,7 @@ a {
     color: white;
     text-shadow: 0 0 20px cornflowerblue;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 2vw;
     font-family: "Ubuntu Mono", monospace;
 }
 }
@@ -118,26 +118,26 @@ p{
     color: white;
     text-shadow: 0 0 20px cornflowerblue;
     font-family: "Ubuntu Mono", monospace;
-    font-size: large;
+    font-size: 1.5vw;
 }
 
 .CornFlowerBlue{
     color: cornflowerblue;
     font-family: "Ubuntu Mono", monospace;
-    font-size: large;
+    font-size: 1.5vw;
 }
 .DarkBlue{
     color: darkblue;
     font-family: "Ubuntu Mono", monospace;
-    font-size: large;
+    font-size: 1.5vw;
 }
 .White{
     color: white;
     font-family: "Ubuntu Mono", monospace;
-    font-size: large;
+    font-size: 1.5vw;
 }
 .Black{
     color: rgba(0, 0, 0, 0.3);
     font-family: "Ubuntu Mono", monospace;
-    font-size: large;
+    font-size: 1.5vw;
 }
