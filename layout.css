@@ -20,9 +20,12 @@ body {
     margin: 0;
 }
 a {
-    color: cornflowerblue;
+    color: white;
+    text-shadow: 0 0 20px cornflowerblue;
     text-decoration: none;
-    font-size: large;
+    font-size: x-large;
+    font-family: "Ubuntu Mono", monospace;
+}
 }
 
 a:hover{
