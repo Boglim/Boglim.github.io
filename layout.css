@@ -22,6 +22,7 @@ body {
 a {
     color: cornflowerblue;
     text-decoration: none;
+    font-size: large;
 }
 
 a:hover{
